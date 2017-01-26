@@ -1,0 +1,138 @@
+<jnlp codebase="http://localhost:8080">
+	<information>
+		<title>Mirth Connect Administrator 3.4.2.8129</title>
+		<vendor>Mirth Corporation</vendor>
+		<homepage href="http://www.mirthcorp.com"/>
+		<description>Open Source Healthcare Integration Engine</description>
+		
+		<icon href="images/mirth_128_ico.png"/>
+		<icon href="images/splashscreen.png" kind="splash"/> 
+		
+		<offline-allowed/>
+
+		<shortcut online="true">
+            <!-- put a shortcut on the desktop -->
+            <desktop/>
+            <!-- put shortcut in start menu too -->
+            <menu submenu="Mirth Connect"/>
+    	</shortcut>
+    	
+	</information>
+	
+	<security>
+		<all-permissions/>
+	</security>
+	
+	<update check="timeout" policy="always"/>
+	
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" max-heap-size="512m" version="1.6+"/>
+	<jar download="eager" href="webstart/client-lib/mirth-client.jar" main="true"/>
+        <jar download="eager" href="webstart/client-lib/mirth-client-core.jar"/>
+        <jar download="eager" href="webstart/client-lib/mirth-crypto.jar"/>
+        <jar download="eager" href="webstart/client-lib/mirth-vocab.jar"/>
+        <jar download="eager" href="webstart/client-lib/miglayout-core-4.2.jar"/>
+        <jar download="eager" href="webstart/client-lib/xstream-1.4.7.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-collections4-4.0.jar"/>
+        <jar download="eager" href="webstart/client-lib/quartz-all-2.1.7.jar"/>
+        <jar download="eager" href="webstart/client-lib/jersey-common-2.22.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/rsyntaxtextarea-2.5.6.jar"/>
+        <jar download="eager" href="webstart/client-lib/xpp3-1.1.4c.jar"/>
+        <jar download="eager" href="webstart/client-lib/miglayout-swing-4.2.jar"/>
+        <jar download="eager" href="webstart/client-lib/swingx-core-1.6.2.jar"/>
+        <jar download="eager" href="webstart/client-lib/looks-2.3.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/mimepull-1.9.6.jar"/>
+        <jar download="eager" href="webstart/client-lib/bcpkix-jdk15on-151.jar"/>
+        <jar download="eager" href="webstart/client-lib/bcprov-ext-jdk15on-151.jar"/>
+        <jar download="eager" href="webstart/client-lib/httpcore-4.4.3.jar"/>
+        <jar download="eager" href="webstart/client-lib/hk2-api-2.4.0-b31.jar"/>
+        <jar download="eager" href="webstart/client-lib/swagger-annotations-1.5.4.jar"/>
+        <jar download="eager" href="webstart/client-lib/jackson-annotations-2.5.3.jar"/>
+        <jar download="eager" href="webstart/client-lib/javaparser-1.0.8.jar"/>
+        <jar download="eager" href="webstart/client-lib/jackson-databind-2.5.3.jar"/>
+        <jar download="eager" href="webstart/client-lib/rhino-1.7.6.jar"/>
+        <jar download="eager" href="webstart/client-lib/guava-18.0.jar"/>
+        <jar download="eager" href="webstart/client-lib/jersey-client-2.22.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/jersey-media-multipart-2.22.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/jersey-proxy-client-2.22.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/wizard.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-collections-3.2.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/reflections-0.9.10.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-io-2.3.jar"/>
+        <jar download="eager" href="webstart/client-lib/javax.annotation-api-1.2.jar"/>
+        <jar download="eager" href="webstart/client-lib/hk2-utils-2.4.0-b31.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-codec-1.6.jar"/>
+        <jar download="eager" href="webstart/client-lib/donkey-model.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-beanutils-1.8.2.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-compress-1.4.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-logging-1.1.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/xercesImpl-2.9.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/jai_imageio.jar"/>
+        <jar download="eager" href="webstart/client-lib/hk2-locator-2.4.0-b31.jar"/>
+        <jar download="eager" href="webstart/client-lib/log4j-1.2.16.jar"/>
+        <jar download="eager" href="webstart/client-lib/language_support.jar"/>
+        <jar download="eager" href="webstart/client-lib/javassist-3.19.0-GA.jar"/>
+        <jar download="eager" href="webstart/client-lib/hapi-1.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/bcprov-jdk15on-151.jar"/>
+        <jar download="eager" href="webstart/client-lib/jersey-guava-2.22.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/javax.ws.rs-api-2.0.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/not-yet-commons-ssl-0.3.11.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-lang-2.6.jar"/>
+        <jar download="eager" href="webstart/client-lib/jackson-core-2.5.3.jar"/>
+        <jar download="eager" href="webstart/client-lib/httpmime-4.5.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/userutil-sources.jar"/>
+        <jar download="eager" href="webstart/client-lib/javax.mail-1.5.0.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-configuration-1.7.jar"/>
+        <jar download="eager" href="webstart/client-lib/velocity-tools-2.0.jar"/>
+        <jar download="eager" href="webstart/client-lib/javax.inject-2.4.0-b31.jar"/>
+        <jar download="eager" href="webstart/client-lib/autocomplete-2.5.4.jar"/>
+        <jar download="eager" href="webstart/client-lib/velocity-1.7.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-vfs2-2.0.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-lang3-3.4.jar"/>
+        <jar download="eager" href="webstart/client-lib/httpclient-4.5.1.jar"/>
+        <extension href="webstart/extensions/scriptfilestep.jnlp"/>
+        <extension href="webstart/extensions/textviewer.jnlp"/>
+        <extension href="webstart/extensions/dicomviewer.jnlp"/>
+        <extension href="webstart/extensions/js.jnlp"/>
+        <extension href="webstart/extensions/jdbc.jnlp"/>
+        <extension href="webstart/extensions/mapper.jnlp"/>
+        <extension href="webstart/extensions/directoryresource.jnlp"/>
+        <extension href="webstart/extensions/datapruner.jnlp"/>
+        <extension href="webstart/extensions/javascriptrule.jnlp"/>
+        <extension href="webstart/extensions/datatype-xml.jnlp"/>
+        <extension href="webstart/extensions/datatype-ncpdp.jnlp"/>
+        <extension href="webstart/extensions/jms.jnlp"/>
+        <extension href="webstart/extensions/datatype-json.jnlp"/>
+        <extension href="webstart/extensions/xsltstep.jnlp"/>
+        <extension href="webstart/extensions/file.jnlp"/>
+        <extension href="webstart/extensions/scriptfilerule.jnlp"/>
+        <extension href="webstart/extensions/messagebuilder.jnlp"/>
+        <extension href="webstart/extensions/datatype-dicom.jnlp"/>
+        <extension href="webstart/extensions/serverlog.jnlp"/>
+        <extension href="webstart/extensions/datatype-hl7v3.jnlp"/>
+        <extension href="webstart/extensions/datatype-hl7v2.jnlp"/>
+        <extension href="webstart/extensions/ws.jnlp"/>
+        <extension href="webstart/extensions/javascriptstep.jnlp"/>
+        <extension href="webstart/extensions/dashboardstatus.jnlp"/>
+        <extension href="webstart/extensions/datatype-raw.jnlp"/>
+        <extension href="webstart/extensions/tcp.jnlp"/>
+        <extension href="webstart/extensions/datatype-edi.jnlp"/>
+        <extension href="webstart/extensions/smtp.jnlp"/>
+        <extension href="webstart/extensions/globalmapviewer.jnlp"/>
+        <extension href="webstart/extensions/httpauth.jnlp"/>
+        <extension href="webstart/extensions/dicom.jnlp"/>
+        <extension href="webstart/extensions/imageviewer.jnlp"/>
+        <extension href="webstart/extensions/mllpmode.jnlp"/>
+        <extension href="webstart/extensions/pdfviewer.jnlp"/>
+        <extension href="webstart/extensions/vm.jnlp"/>
+        <extension href="webstart/extensions/http.jnlp"/>
+        <extension href="webstart/extensions/doc.jnlp"/>
+        <extension href="webstart/extensions/rulebuilder.jnlp"/>
+        <extension href="webstart/extensions/datatype-delimited.jnlp"/>
+    </resources>
+	
+	<application-desc main-class="com.mirth.connect.client.ui.Mirth">
+        <argument>https://localhost:8443</argument>
+        <argument>3.4.2.8129</argument>
+    </application-desc>
+</jnlp>
