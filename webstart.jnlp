@@ -1,6 +1,6 @@
 <jnlp codebase="http://localhost:8080">
 	<information>
-		<title>Mirth Connect Administrator 3.4.2.8129</title>
+		<title>Mirth Connect Administrator 3.5.0.8232</title>
 		<vendor>Mirth Corporation</vendor>
 		<homepage href="http://www.mirthcorp.com"/>
 		<description>Open Source Healthcare Integration Engine</description>
@@ -39,8 +39,10 @@
         <jar download="eager" href="webstart/client-lib/rsyntaxtextarea-2.5.6.jar"/>
         <jar download="eager" href="webstart/client-lib/xpp3-1.1.4c.jar"/>
         <jar download="eager" href="webstart/client-lib/miglayout-swing-4.2.jar"/>
+        <jar download="eager" href="webstart/client-lib/joda-time-2.2.jar"/>
         <jar download="eager" href="webstart/client-lib/swingx-core-1.6.2.jar"/>
         <jar download="eager" href="webstart/client-lib/looks-2.3.1.jar"/>
+        <jar download="eager" href="webstart/client-lib/commons-beanutils-1.9.3.jar"/>
         <jar download="eager" href="webstart/client-lib/mimepull-1.9.6.jar"/>
         <jar download="eager" href="webstart/client-lib/bcpkix-jdk15on-151.jar"/>
         <jar download="eager" href="webstart/client-lib/bcprov-ext-jdk15on-151.jar"/>
@@ -62,8 +64,8 @@
         <jar download="eager" href="webstart/client-lib/javax.annotation-api-1.2.jar"/>
         <jar download="eager" href="webstart/client-lib/hk2-utils-2.4.0-b31.jar"/>
         <jar download="eager" href="webstart/client-lib/commons-codec-1.6.jar"/>
+        <jar download="eager" href="webstart/client-lib/zip4j_1.3.2.jar"/>
         <jar download="eager" href="webstart/client-lib/donkey-model.jar"/>
-        <jar download="eager" href="webstart/client-lib/commons-beanutils-1.8.2.jar"/>
         <jar download="eager" href="webstart/client-lib/commons-compress-1.4.1.jar"/>
         <jar download="eager" href="webstart/client-lib/commons-logging-1.1.1.jar"/>
         <jar download="eager" href="webstart/client-lib/xercesImpl-2.9.1.jar"/>
@@ -124,6 +126,7 @@
         <extension href="webstart/extensions/imageviewer.jnlp"/>
         <extension href="webstart/extensions/mllpmode.jnlp"/>
         <extension href="webstart/extensions/pdfviewer.jnlp"/>
+        <extension href="webstart/extensions/destinationsetfilter.jnlp"/>
         <extension href="webstart/extensions/vm.jnlp"/>
         <extension href="webstart/extensions/http.jnlp"/>
         <extension href="webstart/extensions/doc.jnlp"/>
@@ -133,6 +136,6 @@
 	
 	<application-desc main-class="com.mirth.connect.client.ui.Mirth">
         <argument>https://localhost:8443</argument>
-        <argument>3.4.2.8129</argument>
+        <argument>3.5.0.8232</argument>
     </application-desc>
 </jnlp>

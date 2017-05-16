@@ -48,3 +48,8 @@ browse to [http://localhost:8080]() to access web client.
 ## Change configuration
 
 see [./mirth-connect/README.md](./mirth-connect/README.md)
+
+## Credits
+
+- https://github.com/fabrom/mirth-connect-docker Fabrice Romand <fabrice.romand@gmail.com>
+- [based on brandonstevens/mirth-connect docker image](https://hub.docker.com/r/brandonstevens/mirth-connect/)

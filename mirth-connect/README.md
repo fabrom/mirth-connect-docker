@@ -1,7 +1,7 @@
 mirth-connect
 =============
 
-cf [brandonstevens/mirth-connect](https://hub.docker.com/r/brandonstevens/mirth-connect/)
+based on [brandonstevens/mirth-connect](https://hub.docker.com/r/brandonstevens/mirth-connect/)
 
 # What is Mirth Connect?
 
