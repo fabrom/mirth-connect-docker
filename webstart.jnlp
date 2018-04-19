@@ -1,6 +1,6 @@
 <jnlp codebase="http://localhost:8080">
 	<information>
-		<title>Mirth Connect Administrator 3.5.1</title>
+		<title>Mirth Connect Administrator 3.5.2</title>
 		<vendor>Mirth Corporation</vendor>
 		<homepage href="http://www.mirthcorp.com"/>
 		<description>Open Source Healthcare Integration Engine</description>
@@ -136,6 +136,6 @@
 	
 	<application-desc main-class="com.mirth.connect.client.ui.Mirth">
         <argument>https://localhost:8443</argument>
-        <argument>3.5.1</argument>
+        <argument>3.5.2</argument>
     </application-desc>
 </jnlp>

@@ -1,7 +1,7 @@
 # https://hub.docker.com/r/brandonstevens/mirth-connect/
 FROM java
 
-ENV MIRTH_CONNECT_VERSION 3.5.1.b194
+ENV MIRTH_CONNECT_VERSION 3.5.2.b204
 
 # Mirth Connect is run with user `connect`, uid = 1000
 # If you bind mount a volume from the host or a data container,
