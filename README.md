@@ -39,7 +39,7 @@ Use your preferred MySQL client connected to *localhost* port *3306*
 ## Connect to Mirth-Connect
 
 Double-click on *./webstart.jnlp* to start the Mirth-Connect client
-(user: *admin* / password: *admin* )
+(user: *admin* / password: *password* )
 
 or
 
