@@ -1,3 +1,7 @@
+20190316
+--------
+- update mirth-connect to 3.7.0
+
 20180622
 --------
 - update mith-connect to 3.6.0
