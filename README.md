@@ -9,7 +9,7 @@ Mirth-Connect Docker Stack (Mirth-Connect container + Mysql container + PHPMyAdm
 
 ## Build Mirth-Connect docker image
 
-  > \> docker-compose build
+  > \> docker-compose build --force-rm --no-cache --pull --parallel
 
 ## Start Mirth-Connect-Docker stack
 

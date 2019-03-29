@@ -2,6 +2,7 @@ version: '2'
 
 services:
   mirth-database:
+    container_name: mc-mysql
     image: mysql:5.6
     command: mysqld --innodb-buffer-pool-size=20M
     volumes:
@@ -16,6 +17,8 @@ services:
 
   mirth-connect:
     build: mirth-connect
+    image: fabrom/mirth-connect
+    container_name: mc-mirthconnect
     volumes:
       - "./mirth-connect/mirth.properties:/opt/mirth-connect/conf/mirth.properties:rw"
       - "./data/spools/:/var/spool/mirth/:rw"
@@ -28,6 +31,7 @@ services:
       - mirth-database
 
   phpmyadmin:
+    container_name: mc-phpmyadmin
     image: phpmyadmin/phpmyadmin:latest
     ports:
       - "8181:80"
