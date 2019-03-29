@@ -1,3 +1,8 @@
+20190329
+--------
+- update mirth-connect to 3.7.1.b243
+- change java to openjdk image
+
 20190316
 --------
 - update mirth-connect to 3.7.0
