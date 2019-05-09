@@ -20,7 +20,7 @@ services:
     image: fabrom/mirth-connect
     container_name: mc-mirthconnect
     volumes:
-      - "./mirth-connect/mirth.properties:/opt/mirth-connect/conf/mirth.properties:rw"
+      - "./mirth-connect/conf/mirth.properties:/opt/mirth-connect/conf/mirth.properties:ro"
       - "./data/spools/:/var/spool/mirth/:rw"
     ports: 
       - "8080:8080"
