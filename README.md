@@ -13,6 +13,10 @@ Mirth-Connect Docker Stack (Mirth-Connect container + Mysql container + PHPMyAdm
 
 ## Start Mirth-Connect-Docker stack
 
+  > \> copy mirth-connect/conf/dbdrivers.example.xml to dbdrivers.xml  
+  > \> eventually, add java db drivers to mirth-connect/custom-lib/ and
+    edit mirth-connect/conf/dbdrivers.xml (see dbdrivers.example.xml)
+
   > \> docker-compose up -d
 
 ## Stop Mirth-Connect-Docker stack

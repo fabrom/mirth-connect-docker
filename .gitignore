@@ -2,3 +2,5 @@
 data/db/*
 data/spools/in/*
 data/spools/out/*
+mirth-connect/conf/dbdrivers.xml
+mirth-connect/custom-lib/*.jar
