@@ -1,3 +1,7 @@
+20200402
+--------
+- update mirth-connect to 3.8.1.b246
+
 20190329
 --------
 - update mirth-connect to 3.7.1.b243

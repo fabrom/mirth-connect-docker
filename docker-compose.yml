@@ -20,8 +20,8 @@ services:
     image: fabrom/mirth-connect
     container_name: mc-mirthconnect
     volumes:
-      - "./mirth-connect/conf/mirth.properties:/opt/mirth-connect/conf/mirth.properties:ro"
-      - "./mirth-connect/conf/dbdrivers.xml:/opt/mirth-connect/conf/dbdrivers.xml:ro"
+      - "./mirth-connect/conf/mirth.properties:/opt/mirth-connect/conf/mirth.properties:rw"
+      - "./mirth-connect/conf/dbdrivers.xml:/opt/mirth-connect/conf/dbdrivers.xml:rw"
       - "./mirth-connect/custom-lib/:/opt/mirth-connect/custom-lib/:ro"
       - "./data/spools/:/var/spool/mirth/:rw"
     ports: 
