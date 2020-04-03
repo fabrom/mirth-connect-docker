@@ -2,5 +2,9 @@
 data/db/*
 data/spools/in/*
 data/spools/out/*
+local/
+local_*
 mirth-connect/conf/dbdrivers.xml
 mirth-connect/custom-lib/*.jar
+
+*.log

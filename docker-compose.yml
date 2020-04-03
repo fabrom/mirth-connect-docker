@@ -12,7 +12,7 @@ services:
       - "MYSQL_USER=mirth"
       - "MYSQL_PASSWORD=password"
       - "MYSQL_ROOT_PASSWORD=password"
-    ports: 
+    ports:
       - "3306:3306"
 
   mirth-connect:
@@ -24,13 +24,15 @@ services:
       - "./mirth-connect/conf/dbdrivers.xml:/opt/mirth-connect/conf/dbdrivers.xml:rw"
       - "./mirth-connect/custom-lib/:/opt/mirth-connect/custom-lib/:ro"
       - "./data/spools/:/var/spool/mirth/:rw"
-    ports: 
+    ports:
       - "8080:8080"
       - "8443:8443"
     links:
       - mirth-database:mysql
+      - rp-https:rp-https
     depends_on:
       - mirth-database
+      - rp-https
 
   phpmyadmin:
     container_name: mc-phpmyadmin
@@ -44,3 +46,17 @@ services:
       - mirth-database:db
     depends_on:
       - mirth-database
+
+  rp-https:
+    container_name: rp-https
+    hostname: rp-https
+    image: nginx
+    ports:
+      - 80:80
+      # - 7080:7080  # SRI Pulsy PreProd
+    volumes:
+      - ./rp-https/conf/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./rp-https/conf/nginx/conf.d:/etc/nginx/conf.d
+      - ./rp-https/conf/ssl:/etc/ssl/private
+      - ./rp-https/log:/var/log/nginx
+      - ./rp-https/www:/usr/share/nginx/html
