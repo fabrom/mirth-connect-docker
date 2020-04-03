@@ -1,3 +1,7 @@
+20200404
+--------
+- add NGINX container as HTTPS reverse-proxy
+
 20200402
 --------
 - update mirth-connect to 3.8.1.b246

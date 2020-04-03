@@ -1,11 +1,16 @@
 # mirth-connect-docker
 
-Mirth-Connect Docker Stack (Mirth-Connect container + Mysql container + PHPMyAdmin container)
+Mirth-Connect Docker Stack :
+
+- Mirth-Connect container
+- NGINX container (forward HTTP to HTTPS reverse-proxy)
+- Mysql container
+- PHPMyAdmin container
 
 ## Prerequirements
 
 - Docker
-- Java
+- Java (for MirthConnect client)
 
 ## Build Mirth-Connect docker image
 
@@ -13,9 +18,14 @@ Mirth-Connect Docker Stack (Mirth-Connect container + Mysql container + PHPMyAdm
 
 ## Start Mirth-Connect-Docker stack
 
-  > \> copy mirth-connect/conf/dbdrivers.example.xml to dbdrivers.xml  
-  > \> eventually, add java db drivers to mirth-connect/custom-lib/ and
-    edit mirth-connect/conf/dbdrivers.xml (see dbdrivers.example.xml)
+Prepare local datas directories :
+
+  > \> ./init.sh
+
+  Eventually, add java db drivers to ./data/mirth-connect/custom-lib/ and
+    edit ./data/mirth-connect/conf/dbdrivers.xml (see dbdrivers.example.xml)
+
+  Finally, start the stack
 
   > \> docker-compose up -d
 
@@ -49,9 +59,21 @@ or
 
 browse to [http://localhost:8080]() to access web client.
 
+## Using host filesystem in MirthConnect
+
+_./data/mirth-connect/spools_ (host FS) mapped to _/var/spool/mirth/_ (Mirth container)
+
+## Using reverse-proxy in MirthConnect
+
+Reverse-proxy hostname is _rp-https_
+
 ## Change configuration
 
 see [./mirth-connect/README.md](./mirth-connect/README.md)
+
+## Forward HTTP sender to HTTPS destination
+
+see [./rp-https/README.md](./rp-https/README.md)
 
 ## Credits
 

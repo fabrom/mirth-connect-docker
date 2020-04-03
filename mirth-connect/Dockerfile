@@ -9,7 +9,7 @@ ENV MIRTH_CONNECT_VERSION 3.8.1.b246
 RUN useradd -u 1000 mirth
 
 # update and install requirements
-RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates wget 
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates wget
 
 # grab gosu for easy step-down from root
 RUN set -eux; \
