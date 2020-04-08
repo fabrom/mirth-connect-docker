@@ -1,3 +1,8 @@
+20200408
+--------
+- Reduce mirthconnect docker image (775MB->532MB)
+- upgrade to openjdk:11-jre
+
 20200404
 --------
 - add NGINX container as HTTPS reverse-proxy

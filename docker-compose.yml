@@ -73,8 +73,10 @@ services:
   rp-https:
     container_name: mc-rp-https
     hostname: rp-https
-    image: nginx
+    image: nginx:latest
     restart: on-failure
+    ports:
+      - 7980:7980  # for from host reverse testing
     volumes:
       - ./data/rp-https/conf/nginx/nginx.conf:/etc/nginx/nginx.conf
       - ./data/rp-https/conf/nginx/conf.d:/etc/nginx/conf.d
