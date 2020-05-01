@@ -1,6 +1,6 @@
 FROM openjdk:11-jre
 
-ENV MIRTH_CONNECT_VERSION 3.8.1.b246
+ENV MIRTH_CONNECT_VERSION 3.9.0.b2526
 
 # Mirth Connect is run with user `connect`, uid = 1000
 # If you bind mount a volume from the host or a data container,

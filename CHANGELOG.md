@@ -1,3 +1,9 @@
+# CHANGELOG
+
+20200501
+--------
+- upgrade mirth-connect to 3.9.0.b2526
+
 20200408
 --------
 - Reduce mirthconnect docker image (775MB->532MB)
