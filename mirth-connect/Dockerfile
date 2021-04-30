@@ -1,6 +1,6 @@
 FROM openjdk:11-jre
 
-ENV MIRTH_CONNECT_VERSION 3.10.0.b2566
+ENV MIRTH_CONNECT_VERSION 3.11.0.b2609
 
 # Mirth Connect is run with user `connect`, uid = 1000
 # If you bind mount a volume from the host or a data container,
@@ -26,6 +26,7 @@ RUN \
   wget https://s3.amazonaws.com/downloads.mirthcorp.com/connect/$MIRTH_CONNECT_VERSION/mirthconnect-$MIRTH_CONNECT_VERSION-unix.tar.gz && \
   tar xvzf mirthconnect-$MIRTH_CONNECT_VERSION-unix.tar.gz && \
   rm -f mirthconnect-$MIRTH_CONNECT_VERSION-unix.tar.gz && \
+  mkdir /opt/mirth-connect && \
   mv Mirth\ Connect/* /opt/mirth-connect/ && \
   chown -R mirth /opt/mirth-connect
 
