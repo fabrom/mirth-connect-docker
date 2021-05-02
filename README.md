@@ -16,6 +16,8 @@ Mirth-Connect Docker Stack :
 
   > \> docker-compose build --force-rm --no-cache --pull --parallel
 
+... docker login, docker tag, docker push ...
+
 ## Start Mirth-Connect-Docker stack
 
 Prepare local datas directories :
