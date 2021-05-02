@@ -78,9 +78,9 @@ services:
     ports:
       - 7980:7980  # for from host reverse testing
     volumes:
-      - ./data/rp-https/conf/nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./data/rp-https/conf/nginx/conf.d:/etc/nginx/conf.d
-      - ./data/rp-https/conf/ssl:/etc/ssl/private
-      - nginx_log:/var/log/nginx
+      - "./data/rp-https/conf/nginx/nginx.conf:/etc/nginx/nginx.conf:ro"
+      - "./data/rp-https/conf/nginx/conf.d/:/etc/nginx/conf.d/:ro"
+      - "./data/rp-https/conf/ssl/:/etc/ssl/private/:ro"
+      - "nginx_log:/var/log/nginx"
     networks:
       - backend
