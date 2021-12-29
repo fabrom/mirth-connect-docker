@@ -1,4 +1,8 @@
 # CHANGELOG
+20211229
+--------
+- upgrade mirth-connect to 3.12.0.b2650
+
 20210430
 --------
 - upgrade mirth-connect to 3.11.0.b2609

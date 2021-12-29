@@ -1,8 +1,8 @@
-<jnlp codebase="https://localhost:8443" version="3.11.0">
+<jnlp codebase="https://localhost:8443" version="3.12.0">
     	
     <information>
         		
-        <title>Mirth Connect Administrator 3.11.0</title>
+        <title>Mirth Connect Administrator 3.12.0</title>
         		
         <vendor>NextGen Healthcare</vendor>
         		
@@ -51,83 +51,94 @@
         		
         <j2se href="http://java.sun.com/products/autodl/j2se" max-heap-size="512m" version="1.6+"/>
         	
-        <jar download="eager" href="webstart/client-lib/mirth-client.jar" main="true" sha256="8e/ARjD+IdYkKY0kqiewOBPr6c7LHc3GAV3+1ePjyJk="/>
-        <jar download="eager" href="webstart/client-lib/mirth-client-core.jar" sha256="eS682pSZ3T0xKUbhx/wvWqKU7QWBFA9wXa76hLNwcIo="/>
-        <jar download="eager" href="webstart/client-lib/mirth-crypto.jar" sha256="mFvZuKHpY9yFurEDJJu7FnPq8H+q2eIRbz33jfVasUs="/>
-        <jar download="eager" href="webstart/client-lib/mirth-vocab.jar" sha256="VTfQ/heS3j7zLeBuJYL+buW2OyYcuLtIzmDBERcO2Fk="/>
-        <jar download="eager" href="webstart/client-lib/javassist-3.26.0-GA.jar" sha256="uM9499s2ppuVgzVVbY1A8SvMpOBQJIY7jXONiSsNfHY="/>
-        <jar download="eager" href="webstart/client-lib/commons-configuration2-2.7.jar" sha256="cwRX1Plqh45b3gdoNBR4ks5jI7/jEctk+ftAU5LYQsI="/>
-        <jar download="eager" href="webstart/client-lib/commons-beanutils-1.9.3.jar" sha256="F03Yoe/FsB/Yt7kNDqsaC5QofXzMXwLiWnjqbl9799o="/>
-        <jar download="eager" href="webstart/client-lib/javax.inject-2.4.0-b31.jar" sha256="sIv/cy+zSAIpeQ6QCqx1K3QDF1fBA6pq70bqlR/UtOc="/>
-        <jar download="eager" href="webstart/client-lib/jersey-proxy-client-2.22.1.jar" sha256="qcqbrfLTkh+yPcMPk/hMy8xL2SCQ8zarHMTn6hYpAOQ="/>
-        <jar download="eager" href="webstart/client-lib/hk2-utils-2.4.0-b31.jar" sha256="HkoJZoaCBFt9GRXMHNieglj+XKidNnmG2a+TgwIT610="/>
-        <jar download="eager" href="webstart/client-lib/looks-2.3.1.jar" sha256="kplUB0aa03kfmfWiUxilYDwxLC0S0B6Pj2VTu7oVX+s="/>
-        <jar download="eager" href="webstart/client-lib/javax.activation-1.2.0.jar" sha256="DntpGGFmq6jjFAmo53ytSFPJ6H20I5l92xRFJJn4asc="/>
-        <jar download="eager" href="webstart/client-lib/javax.ws.rs-api-2.0.1.jar" sha256="pWdpCSAze34yJ77oEDH9dK+HSnIqZoJPt45NA+vm/a4="/>
-        <jar download="eager" href="webstart/client-lib/autocomplete-2.5.4.jar" sha256="72ZKRga5jg6b9ObbfdRxwv8bk/MK+QbHAtUywCrh2CI="/>
-        <jar download="eager" href="webstart/client-lib/log4j-1.2.16.jar" sha256="VOWeS1gq4D+Jl9b5f4uJaaV7tjMTzER++CbHn3RG+Qo="/>
-        <jar download="eager" href="webstart/client-lib/commons-logging-1.2.jar" sha256="NesOFDTaHr/fbS4NMYoRiD70x8iWPBjkyjFKNBXPbsY="/>
-        <jar download="eager" href="webstart/client-lib/staxon-1.3.jar" sha256="ypAt4S30Za+S9CHajzEBS+gNG/UvO2C79mi65RJ8LQU="/>
-        <jar download="eager" href="webstart/client-lib/commons-io-2.6.jar" sha256="0DOdDG37YLH+LJKIdvOR9HbyyGHuEtO5CQY7gWwBXx0="/>
-        <jar download="eager" href="webstart/client-lib/swagger-annotations-2.0.10.jar" sha256="XJaIK1p21tZqqqgJCsYkjCUWD/ohOnhOEzZmGjUCuRg="/>
-        <jar download="eager" href="webstart/client-lib/jersey-media-multipart-2.22.1.jar" sha256="+y0LjSob8FKxC+v8wQew26E6Lr4REfzWR8A9PQ06dfk="/>
-        <jar download="eager" href="webstart/client-lib/utils-2.15.28.jar" sha256="GOGvvjQDbUYmB/v51HjVhxNSgkHgorxwvPuZhWXokUA="/>
-        <jar download="eager" href="webstart/client-lib/hk2-locator-2.4.0-b31.jar" sha256="0HEzOPh0AtWmQ6m15UNZA5KWITnQUJJZF8DoJWuC1HM="/>
-        <jar download="eager" href="webstart/client-lib/mimepull-1.9.7.jar" sha256="Pl12qxqSknAlJwu+TPaIhh6XioWigmLAKvVlLZyTc5I="/>
-        <jar download="eager" href="webstart/client-lib/openjfx.jar" sha256="Uii2SE2RyXSWS+/HnIMgrqph8Vvdm+G5Xu/ipB+7z5E="/>
-        <jar download="eager" href="webstart/client-lib/rsyntaxtextarea-2.5.6.jar" sha256="X+wbj7zkyISoENYXSD5IlInkJ5Vt+mDJrEhuMWhqJb4="/>
-        <jar download="eager" href="webstart/client-lib/jackson-databind-2.11.3.jar" sha256="jQRgnsVEHfJ3w0OsDWveaJsdVsJCgYmdhe+Wh+oha6s="/>
-        <jar download="eager" href="webstart/client-lib/hk2-api-2.4.0-b31.jar" sha256="3uyEitfvd6NKnXGLe5mzwQM3XAoy7a4ZvIcTPNWPsM0="/>
-        <jar download="eager" href="webstart/client-lib/jai_imageio.jar" sha256="0BH/j1KmuUkaqUtHDFiwhnpkJJRerAjprBpWw963pn8="/>
-        <jar download="eager" href="webstart/client-lib/commons-text-1.8.jar" sha256="QuElgJxrsGZbO+kMhSreTgepED0uOmjKstnRID66N5Q="/>
-        <jar download="eager" href="webstart/client-lib/istack-commons-runtime-3.0.6.jar" sha256="T7KqEbpT2KRmxJh58Pge7Y/7CeI+L06LufxdimEuTns="/>
-        <jar download="eager" href="webstart/client-lib/donkey-model.jar" sha256="u/ysHXih55ToVUjyEvj+Cnjg4BdbHz8+9G69KCY1owg="/>
-        <jar download="eager" href="webstart/client-lib/regions-2.15.28.jar" sha256="mR/RtyqVWHiV8Uu7T1bjRhgoeayfeEUIqwnTR5gGzoo="/>
-        <jar download="eager" href="webstart/client-lib/javax.activation-api-1.2.0.jar" sha256="8cE0RNlAkyZU+6QWP4mumQok22uU1XXFslbhiO8bXgo="/>
-        <jar download="eager" href="webstart/client-lib/javax.annotation-api-1.3.jar" sha256="nBgm+z1ABjXFInnBEx49BE0fjUOr75U4LKuJSI0afEs="/>
-        <jar download="eager" href="webstart/client-lib/jersey-common-2.22.1.jar" sha256="aCS4DXALo2Q1Jujm4tq0aiKWFG02h+HDivdy3N3haeo="/>
-        <jar download="eager" href="webstart/client-lib/miglayout-swing-4.2.jar" sha256="5joxiyIv5xIdtjH3TOoENqsRdlw2qFKggf0KcQX/MqI="/>
-        <jar download="eager" href="webstart/client-lib/swingx-core-1.6.2.jar" sha256="Cf3I3xVsEDA5vL7zJkxOQlUKkq1OZdGx3yq4OquwpFo="/>
-        <jar download="eager" href="webstart/client-lib/jersey-client-2.22.1.jar" sha256="0LuY1jOuL0Fg9b9aU8TVGQZ3JALff5r1HsVacu8diFs="/>
-        <jar download="eager" href="webstart/client-lib/bcprov-ext-jdk15on-157.jar" sha256="/SyZG0mCHgfRFRA4ftokLVeXuCZmDKwOJj1P5sASFXE="/>
-        <jar download="eager" href="webstart/client-lib/guava-28.2-jre.jar" sha256="NXWfbVwxMOi/xIx7xfpYtTfbYYEhZt4ayhhv8N1nyq8="/>
-        <jar download="eager" href="webstart/client-lib/httpclient-4.5.13.jar" sha256="+g/PtNrwuHJkI3ZlFqJqfy8zPZWYhIIq40+msyeLVnE="/>
-        <jar download="eager" href="webstart/client-lib/joda-time-2.9.9.jar" sha256="+eNLxBiryCiYJqdvP13+SVRFJG/KHj5mP69iVp059MA="/>
-        <jar download="eager" href="webstart/client-lib/commons-lang3-3.9.jar" sha256="17ir5q+ruemY3eDbj3ADlQ6eQZoka1NJM1YedYE90/8="/>
-        <jar download="eager" href="webstart/client-lib/bcprov-jdk15on-157.jar" sha256="EGkZPFbHIQAm38/mOS1OMKk77FrAwiGT3yB/D9djVfM="/>
-        <jar download="eager" href="webstart/client-lib/jcifs-ng-2.1.3.jar" sha256="nCsrlPfcogCWo62HHcnDBhodUYX09SM35Tkq2pVBuOM="/>
-        <jar download="eager" href="webstart/client-lib/jaxb-api-2.4.0-b180725.0427.jar" sha256="S+DzZDqSxiL07aPqITQjhWLGc4RlGuGtSnBVDwlGxr0="/>
-        <jar download="eager" href="webstart/client-lib/rhino-1.7.12.jar" sha256="ubJhAh7ktEdn1rNH0auEjOo81lYBl22OrB3bEOLzst0="/>
-        <jar download="eager" href="webstart/client-lib/jetty-util-9.4.21.v20190926.jar" sha256="MkTs143qX6FmsuhvoSCqDiSARxvtywBLjH29Fh3mWpA="/>
-        <jar download="eager" href="webstart/client-lib/language_support.jar" sha256="i5oNzguN8IdP6EvkuiyN2jNbyJ8T7OCmhUqfArvKm68="/>
-        <jar download="eager" href="webstart/client-lib/wizard.jar" sha256="e6G8wZveXKsKf5L8OFzz1X8xu3j+ZzjGu0+qEl4QowE="/>
-        <jar download="eager" href="webstart/client-lib/jackson-annotations-2.11.3.jar" sha256="bumNx4zwPo/wL/9NKbyirv9Uh9oh7kqWgyWomwTl4hc="/>
-        <jar download="eager" href="webstart/client-lib/commons-codec-1.13.jar" sha256="yiaYTW3luIvmogTi4Oa1OEPWGypp63yhoKhcukmIB/s="/>
-        <jar download="eager" href="webstart/client-lib/velocity-tools-generic-3.0.jar" sha256="k8OoKfVPiOKBQwXWjwfd2HBIKO1Wi9FDbSuT8bqhNvI="/>
-        <jar download="eager" href="webstart/client-lib/zip4j_1.3.3.jar" sha256="jvL+0TSuzCUfi97yg+UNX6m2Ga+PAYAvbsr5ydpiG1o="/>
-        <jar download="eager" href="webstart/client-lib/httpcore-4.4.13.jar" sha256="6MO9iazdcM11n3xHeXAylQ5BBj/3er/MR3BX0GiZs3Y="/>
-        <jar download="eager" href="webstart/client-lib/httpmime-4.5.13.jar" sha256="yFkInWjlquatgUhdTRQkss32Q43t2MJ0KxbtLj033Ww="/>
-        <jar download="eager" href="webstart/client-lib/javax.mail-1.5.0.jar" sha256="UoT5RMFf9Xnmw1sIHPL9492qjiVZWBo9LVRuMnnFM/Y="/>
-        <jar download="eager" href="webstart/client-lib/reflections-0.9.10.jar" sha256="FVS/ol01CxqCw2hklrQ7R+ccHQ89JRGRk/dizvSLnbE="/>
-        <jar download="eager" href="webstart/client-lib/miglayout-core-4.2.jar" sha256="tvdNJDeK3J1baebL2JPK1hGk4QJNkrSk8b9i3zMi3Ik="/>
-        <jar download="eager" href="webstart/client-lib/jaxb-runtime-2.4.0-b180725.0644.jar" sha256="uOF8O3x2zvWfVuGgUbejRYVhJWLSaZKdKucC7RVO3eI="/>
-        <jar download="eager" href="webstart/client-lib/xercesImpl-2.9.1.jar" sha256="XAe2M118yh2lmCPm5g0mtrAr/76EsX5MJ9RgYtW8DuM="/>
-        <jar download="eager" href="webstart/client-lib/commons-collections4-4.4.jar" sha256="1FBxN2lHfjXwPZlGrARYbZv7gAi5pmvS5X+poJlrbtQ="/>
-        <jar download="eager" href="webstart/client-lib/xpp3-1.1.4c.jar" sha256="2BGmmWaJrB4RSPzdelmj/SzJ7rMwtaZxKQ5TE9CyS5Q="/>
-        <jar download="eager" href="webstart/client-lib/commons-vfs2-2.1.jar" sha256="rAbGXI7PvX2P66mu6rwFqUFMiTSyPWxx4rkFVqpyw/k="/>
-        <jar download="eager" href="webstart/client-lib/javaparser-1.0.8.jar" sha256="1evOAmLxFgS6oV51A8rpJvp71N0cRHlUbiPWt/iyQyM="/>
-        <jar download="eager" href="webstart/client-lib/commons-compress-1.17.jar" sha256="x2Ey1Ce58/vInKW0bJrV5snR1Tr84R0RZCEQZqiCdoc="/>
-        <jar download="eager" href="webstart/client-lib/jersey-guava-2.22.1.jar" sha256="hxKkheXyipKuZ0aFAeC70KNlOaayX7LjkciPU0yQ1f8="/>
-        <jar download="eager" href="webstart/client-lib/bcpkix-jdk15on-157.jar" sha256="jJ3oFOeA4koxmTw/k6t3RbhPkG3OpfbxgHX/FIZs+6U="/>
-        <jar download="eager" href="webstart/client-lib/slf4j-log4j12-1.7.30.jar" sha256="KhYknRjEC++CyZlUK9835Iu+rYbBJnG3LdrB3q3YqCc="/>
-        <jar download="eager" href="webstart/client-lib/commons-lang-2.6.jar" sha256="pulPWO9bbD1bAvJYHiiwFu0+yXO4xnH3kEHYUi5ar0c="/>
-        <jar download="eager" href="webstart/client-lib/velocity-engine-core-2.2.jar" sha256="Dcw1CdDFIT7FooqEbSBWA6F6Wa740p16/SZqyHdNBcY="/>
-        <jar download="eager" href="webstart/client-lib/userutil-sources.jar" sha256="tgRsb+EEF42hhP5DdoZ/Ho/v6fcOksvJIJjoLYw1xdk="/>
-        <jar download="eager" href="webstart/client-lib/slf4j-api-1.7.30.jar" sha256="cGyrQyYp5LpEe7YYBfa4DmCRpH2+Z1H835dFytn0gNo="/>
-        <jar download="eager" href="webstart/client-lib/jackson-core-2.11.3.jar" sha256="H+m7Yye/A8UgSc+50hHTm4li9M8UZ3wAIsijk3NCoFk="/>
-        <jar download="eager" href="webstart/client-lib/hapi-1.1.jar" sha256="nEdwzB2hYwlUCHQnnzmEHlW4mlrJ2V7+62B6HteQZ00="/>
-        <jar download="eager" href="webstart/client-lib/quartz-all-2.1.7.jar" sha256="tvtITb7Ow9H4o7BJk/FV6HH1n2oohHMOdAj3OWITCL0="/>
-        <jar download="eager" href="webstart/client-lib/xstream-1.4.12.jar" sha256="4Y6a+s9RWxNGeZ+FU0P10VMtnHoP6K59cDWWqK6dFpQ="/>
+        <jar download="eager" href="webstart/client-lib/mirth-client.jar" main="true" sha256="jRly9sx0LCHqpg7RBSg1WHBSto8DJ7yz5juAIciNUw8="/>
+        <jar download="eager" href="webstart/client-lib/mirth-client-core.jar" sha256="VyAgEJE2A9JaG1UoOywdYhFWa+rpFY+CZcV+eMjAEps="/>
+        <jar download="eager" href="webstart/client-lib/mirth-crypto.jar" sha256="1vpvatx9NAwjPdqHXarszzqp6IjtRtDywNFARW2cdYU="/>
+        <jar download="eager" href="webstart/client-lib/mirth-vocab.jar" sha256="y3W8KxBheUl8XpZGNZPz80fLjbntZBg6wWTc29qLvTE="/>
+        <jar download="eager" href="webstart/client-lib/jackson-databind-2.11.3.jar" sha256="rS4f/G19+GW1IY7vk+FDBH3ls1w/co2OEAcLmQvT76g="/>
+        <jar download="eager" href="webstart/client-lib/slf4j-log4j12-1.7.30.jar" sha256="gz/X2AXEPCRB2dBxl+AhbJ1YyYwOlUUtbc7eLFKc2nM="/>
+        <jar download="eager" href="webstart/client-lib/slf4j-api-1.7.30.jar" sha256="IFL3xu0TqagddAzwXvPpj4WvJETrTzpsvIPsodffgRk="/>
+        <jar download="eager" href="webstart/client-lib/guava-28.2-jre.jar" sha256="ZPfjhhrULqjl7UQKfMqj2lwP7+Q1MKyZt74n/eTLuz4="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v251-2.3.jar" sha256="eFL8hWYeMcDkM1PvfpU86w4wrSW1UehKn/YeD4ljoME="/>
+        <jar download="eager" href="webstart/client-lib/openjfx.jar" sha256="tNht7pVELvc8TBZu0mUX1y7UrqRwp8DGpPhGj1Ko0P8="/>
+        <jar download="eager" href="webstart/client-lib/hk2-locator-2.4.0-b31.jar" sha256="m31gmrAGdT4/B66FS8u9vh3Ewo6ZIrbup6HEWtvWPb0="/>
+        <jar download="eager" href="webstart/client-lib/swingx-core-1.6.2.jar" sha256="XcvyvtBK4DNiyZBBJ3WvFhsRmdyQ82U8dxLjWdCuQww="/>
+        <jar download="eager" href="webstart/client-lib/commons-compress-1.17.jar" sha256="mCCz2qxRg6v8wfs01YfSKx8+kyJjb06yCbHX0GL0J1I="/>
+        <jar download="eager" href="webstart/client-lib/commons-collections4-4.4.jar" sha256="1wz1vftNqNJQhFOTS/RuBwZ4QsqpY0mjgBsuMZMfqwI="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v231-2.3.jar" sha256="ZcDbp0H0Ug3DZkX1cIip6ey1i/h5PsXgyNjrzuGOT2M="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v21-2.3.jar" sha256="Cm5+kHc2t6/62yuAOQeKK3CqeU82Qif1fop1NzRyozg="/>
+        <jar download="eager" href="webstart/client-lib/javax.annotation-api-1.3.jar" sha256="tFPQ8YDnH2RkgC22CKg+uLGsE9nGVlfrsDFij915mHA="/>
+        <jar download="eager" href="webstart/client-lib/hk2-api-2.4.0-b31.jar" sha256="XwPsmFRHTXbJY3ywoHq89FM0RSPzs2WUOqLgftLnHnE="/>
+        <jar download="eager" href="webstart/client-lib/velocity-engine-core-2.2.jar" sha256="QIFHOP9NwKTo1fnslQtgzzQyiNHA7WY+B4ePOCk2lSo="/>
+        <jar download="eager" href="webstart/client-lib/jersey-common-2.22.1.jar" sha256="0gsBQf4UUFM20MHPo/ZR3bWb9iDI9HWJ+Y3dv13HjwU="/>
+        <jar download="eager" href="webstart/client-lib/httpcore-4.4.13.jar" sha256="LIb4pfa3Rw5pFNrNrUYQ7KzLrIDgHLPwR95V/H08vHU="/>
+        <jar download="eager" href="webstart/client-lib/httpmime-4.5.13.jar" sha256="sLneW7luT56eABdmJr3c97L0u0p6SpTGGPrEvrawAlw="/>
+        <jar download="eager" href="webstart/client-lib/velocity-tools-generic-3.0.jar" sha256="+QuGbZSqP4a5vAwkMbheTNjgWmsAlbICnRIndjZ2PlA="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v28-2.3.jar" sha256="gcFbkTE0VFlKbup+blZR/Z8IpBd2GX6eWGhcz9IlxS8="/>
+        <jar download="eager" href="webstart/client-lib/jai_imageio.jar" sha256="q4Ogol5jCtrwHGlCEXHUFSwfCI1BNVS4ElAFGdxqJwY="/>
+        <jar download="eager" href="webstart/client-lib/jersey-proxy-client-2.22.1.jar" sha256="/NbZ5OuBGMjpAAPjA5B/F0TzNUYvGPX6hnQTzCzI3S0="/>
+        <jar download="eager" href="webstart/client-lib/userutil-sources.jar" sha256="lxT2COHiyLDTzjCfc8Wi6HOVzS6IR62TVmZkCP/Ho4o="/>
+        <jar download="eager" href="webstart/client-lib/hk2-utils-2.4.0-b31.jar" sha256="Y62K8299VVjpulGePIpyxrmGVZslP7bbST+PjB4ODdM="/>
+        <jar download="eager" href="webstart/client-lib/javax.inject-2.4.0-b31.jar" sha256="E82WlVxHYsobpN7T7NlbJfuAtwGQlC+xporuaZEM6Lw="/>
+        <jar download="eager" href="webstart/client-lib/bcprov-jdk15on-157.jar" sha256="M0KQR7NUKzrudgiRHMRGSzXCimVLouJp4LaR8nJsgJQ="/>
+        <jar download="eager" href="webstart/client-lib/jersey-guava-2.22.1.jar" sha256="fJn9TtQ7Bw5QIeUvy1moxcT7RYkC49Ke52Ib9X1mktU="/>
+        <jar download="eager" href="webstart/client-lib/xercesImpl-2.9.1.jar" sha256="I448UppTgV79hxOJgX6dGH+KfbrHLugrMSL0tC3AMf8="/>
+        <jar download="eager" href="webstart/client-lib/jcifs-ng-2.1.3.jar" sha256="GDNbaiZsXm/op5nm2q7gljH+6IXMWldNOogFBO7QAvI="/>
+        <jar download="eager" href="webstart/client-lib/looks-2.3.1.jar" sha256="ZkU4Is/4cEH51gVFB44bgz2RP1zQAzvN745huiDPG20="/>
+        <jar download="eager" href="webstart/client-lib/swagger-annotations-2.0.10.jar" sha256="rNYMFBIX2LAZgoJvGYj/rJC4qK56Ue4pUnD+i4ZzJxU="/>
+        <jar download="eager" href="webstart/client-lib/xpp3-1.1.4c.jar" sha256="r5W1V8Y4kcZXg8r82YvvBeYo0UoennZRloh8KaNOih4="/>
+        <jar download="eager" href="webstart/client-lib/log4j-1.2.16.jar" sha256="xfgjiPdRAzyi0yFhAy9oif1EEWoPtkZpJnoQc5h9NTE="/>
+        <jar download="eager" href="webstart/client-lib/bcpkix-jdk15on-157.jar" sha256="EclH2y6ZdH3eo4A68Ztx13VJ7WdmdLqRg3Ul6Fkc0PU="/>
+        <jar download="eager" href="webstart/client-lib/javax.mail-1.5.0.jar" sha256="KrDcyzUNY42K7cBvd+V5K2Myi3LyseXi4BzTxsfhopQ="/>
+        <jar download="eager" href="webstart/client-lib/zip4j_1.3.3.jar" sha256="zBMQ/17QUycO5Qs+8v3xpv9m0t+/5BULnRwLncqnWZ4="/>
+        <jar download="eager" href="webstart/client-lib/istack-commons-runtime-3.0.6.jar" sha256="b1sM85VqC1yKdXhgRHTDH+hV/OOa2xUeUWOwWPvcLP0="/>
+        <jar download="eager" href="webstart/client-lib/jersey-client-2.22.1.jar" sha256="aUx9bM9vcEWfzwCrkdgCa37kPb4kzr1CxHHWxrIUclw="/>
+        <jar download="eager" href="webstart/client-lib/rhino-1.7.12.jar" sha256="5LTSGcaVFflHPQArAbMnLFiyGa8nVBOgCWdDyGYgsYU="/>
+        <jar download="eager" href="webstart/client-lib/commons-lang-2.6.jar" sha256="VO0B1hdXcGW9gYZc0Fv/i3DVSEV1zH/rLWuLLd4QFnk="/>
+        <jar download="eager" href="webstart/client-lib/commons-beanutils-1.9.3.jar" sha256="cGoa8RSZcoheDqKImYGcMLMWxkfk2fDKxhkZIf+W9Ps="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v24-2.3.jar" sha256="EcGJ1MJIRLq5SLHiAwPSwm86myTk2uhQw6rMZbC7bwk="/>
+        <jar download="eager" href="webstart/client-lib/wizard.jar" sha256="38ovVzCz1ybjqqTAxlsUrk+hGr/IOpJPY/JqSh5W+WU="/>
+        <jar download="eager" href="webstart/client-lib/commons-lang3-3.9.jar" sha256="e0MEg2JMFDOaY9dID1rHBFb7niO/UxbMRCdFjc9udb0="/>
+        <jar download="eager" href="webstart/client-lib/jackson-core-2.11.3.jar" sha256="RVkvpa6D2JPN9we2TodWr352KVxiXG4329Sh+cGc2vM="/>
+        <jar download="eager" href="webstart/client-lib/rsyntaxtextarea-2.5.6.jar" sha256="Q+M94VlQcu20a2E1BU9/mMEtxUKHOgR+w+LWLr7Z4tk="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v25-2.3.jar" sha256="bWPiF7PmKD4FrTv2q7eZfodH5DKTn/OoV52BhKksVa4="/>
+        <jar download="eager" href="webstart/client-lib/joda-time-2.9.9.jar" sha256="8Xsrg1ATld2WEDyGTGI+4QHcA3yMO2m0l002d03yHW8="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v22-2.3.jar" sha256="Xv1KNm1EOggs4By4Myu9Q8TP0ItweZIZUcVV46aJ/nM="/>
+        <jar download="eager" href="webstart/client-lib/jaxb-runtime-2.4.0-b180725.0644.jar" sha256="aTvarUqkV+Cc2RlJlMJkM0WuXJyTs5bLEqzwZYp1jFg="/>
+        <jar download="eager" href="webstart/client-lib/httpclient-4.5.13.jar" sha256="SVmhAc7Ei09myvzUbmgVm+fGIG+cO+pojX+0Jbsbops="/>
+        <jar download="eager" href="webstart/client-lib/jackson-annotations-2.11.3.jar" sha256="REy+ZaJoJBcFIXrX1OHgcIfkI7QTf1QIykvUaSDgs/s="/>
+        <jar download="eager" href="webstart/client-lib/jetty-util-9.4.21.v20190926.jar" sha256="gK1q7SpqL/NzY5FFPDJ9Ck7mzrN8babgUuXA6JlZwSc="/>
+        <jar download="eager" href="webstart/client-lib/regions-2.15.28.jar" sha256="f2yZxrnSZA2deOP8ym5444qRvl8Y98F1fDQxmMugIfk="/>
+        <jar download="eager" href="webstart/client-lib/autocomplete-2.5.4.jar" sha256="8102QgnsxJ9eI67XYGOAg13GzkmYt6vwRZODpKH3BBk="/>
+        <jar download="eager" href="webstart/client-lib/javaparser-1.0.8.jar" sha256="V2X47Dn6jIUq9xYsR2HJ4CfsA9qLLVeks0qBNSqpQOs="/>
+        <jar download="eager" href="webstart/client-lib/xstream-1.4.12.jar" sha256="Io8Aq8M0euG/jycG56/NTbRG0XgSNU+WH272NXRDoE0="/>
+        <jar download="eager" href="webstart/client-lib/commons-codec-1.13.jar" sha256="DLxGGEEfaQwOulFaotB+7oSp1mFTq87WgJvf+/uEpqQ="/>
+        <jar download="eager" href="webstart/client-lib/hapi-base-2.3.jar" sha256="mWu2Ho/zPnCqkNq7o1yOnbuLI+43JzJnbRRoe+5LfOs="/>
+        <jar download="eager" href="webstart/client-lib/commons-logging-1.2.jar" sha256="iFr1bRlNCBSSckg8PL7cJi12bXyiUdar+bnbmO9+Hm8="/>
+        <jar download="eager" href="webstart/client-lib/staxon-1.3.jar" sha256="ab7nwXpXSyeAkNjWG7R8gwF2Z0qHYZamIJct9/C2KwI="/>
+        <jar download="eager" href="webstart/client-lib/mimepull-1.9.7.jar" sha256="cTD2t8WiXcUAl7OndNIh1SJw8zD5oa/uL3mk3xtb71s="/>
+        <jar download="eager" href="webstart/client-lib/javax.activation-api-1.2.0.jar" sha256="A1Kdn9qX5SwOyG3JhDuDjT3UUWzT/XxSsD1dfa+NzGs="/>
+        <jar download="eager" href="webstart/client-lib/commons-io-2.6.jar" sha256="B9OsVDIOq36isLXBXI+3HyWUlBVHo2lJRfJElPOT2ps="/>
+        <jar download="eager" href="webstart/client-lib/bcprov-ext-jdk15on-157.jar" sha256="/+c71/MQZ8+op2YudfQd6wS5P+83JozvLlvBt6JSFtg="/>
+        <jar download="eager" href="webstart/client-lib/commons-vfs2-2.1.jar" sha256="c1DmhqvqFVcmTmBTvpDPioE2EgRubSoLhHn6cLrSNys="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v23-2.3.jar" sha256="EmPN2MTlQv34O7wo8SgvA0In3j+evBDLT5KSuU+8T1Y="/>
+        <jar download="eager" href="webstart/client-lib/miglayout-swing-4.2.jar" sha256="jkD2TVp+7jGbqNk0FEbEAlVLaWmsa5ZBAMb4CthUZYY="/>
+        <jar download="eager" href="webstart/client-lib/javassist-3.26.0-GA.jar" sha256="OlvRxcX6xGICOl6q8JJu8umMLk9MhAWOm5dF8OnvUwI="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v281-2.3.jar" sha256="c+/wHugGlsTx/tWrB+4E3SBQ9PLMw98e/8/pbLwm+K0="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v27-2.3.jar" sha256="bi1RUPixXlvBExD8kXmYI+3PF+pQP5lZG1BeEKZwcl8="/>
+        <jar download="eager" href="webstart/client-lib/javax.ws.rs-api-2.0.1.jar" sha256="vSXLD0ceUnxc1G7tNk9kVWb5M6vu2waJNqPPMuAx1L8="/>
+        <jar download="eager" href="webstart/client-lib/quartz-all-2.1.7.jar" sha256="EensGy/37toTteqe/zYZeL18ELDHkEQ9FejMFtbRPX0="/>
+        <jar download="eager" href="webstart/client-lib/javax.activation-1.2.0.jar" sha256="+E8AlFzFTNqWXJItamJD4+E1Ju9dveKM+OB695DbEZg="/>
+        <jar download="eager" href="webstart/client-lib/utils-2.15.28.jar" sha256="N8kjvJ1mBJQad98OMO/H7jLtAlh9vtGoNW2rJ59W0F4="/>
+        <jar download="eager" href="webstart/client-lib/language_support.jar" sha256="mtydOng7uCLR1d58jyxPY65yxIISLpBJaWCHRku15MQ="/>
+        <jar download="eager" href="webstart/client-lib/reflections-0.9.10.jar" sha256="wMQQJaUOn0Hz4K52FcmHMJEJx8/9azFG9BQ5rjTLpiA="/>
+        <jar download="eager" href="webstart/client-lib/hapi-structures-v26-2.3.jar" sha256="0lkECND5NOqHeTmfhkbwv6tGMnMUDNrF0mjiFMNl7sw="/>
+        <jar download="eager" href="webstart/client-lib/commons-configuration2-2.7.jar" sha256="JR5ukiSg1LOYdgcdIduooYVhGL3wtqosZBMR0pALc1o="/>
+        <jar download="eager" href="webstart/client-lib/miglayout-core-4.2.jar" sha256="VJ4OgCQWXkKNIv5jq+6ei56Vl6mGqX7RMDACHQIJk98="/>
+        <jar download="eager" href="webstart/client-lib/jersey-media-multipart-2.22.1.jar" sha256="j3OiyZ7+uV1IjIW7GTV75iDMKdJgI9MWLmpIBD/nZrA="/>
+        <jar download="eager" href="webstart/client-lib/commons-text-1.8.jar" sha256="nVd5lmMNVjrznYqL2/3fAgdsk2ys8eKJxIoRyKdzccg="/>
+        <jar download="eager" href="webstart/client-lib/jaxb-api-2.4.0-b180725.0427.jar" sha256="AAyq0wNOH5Aup9WvD9NWKKUs40fJKAz0E3ZWVQGSKCA="/>
+        <jar download="eager" href="webstart/client-lib/donkey-model.jar" sha256="h8MVIIQ/6lxkLbxlI+W3M9crIPXr3aOTlvmKIemhV7g="/>
         <extension href="webstart/extensions/scriptfilestep.jnlp"/>
         <extension href="webstart/extensions/textviewer.jnlp"/>
         <extension href="webstart/extensions/dicomviewer.jnlp"/>
@@ -173,7 +184,7 @@
 	
     <application-desc main-class="com.mirth.connect.client.ui.Mirth">
         <argument>https://localhost:8443</argument>
-        <argument>3.11.0</argument>
+        <argument>3.12.0</argument>
     </application-desc>
     
 </jnlp>
