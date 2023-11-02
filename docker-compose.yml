@@ -48,6 +48,7 @@ services:
 
   mirth-database:
     container_name: mc-mysql
+    hostname: mysql
     image: mysql:5.6
     command: mysqld --innodb-buffer-pool-size=20M
     restart: on-failure
