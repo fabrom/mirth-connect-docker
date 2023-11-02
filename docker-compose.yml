@@ -36,7 +36,7 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     restart: on-failure
     ports:
-      - "8181:80"
+      - "127.0.0.1:8181:80"
     environment:
       - "PMA_HOST=mirth-database"
       - "MYSQL_ROOT_PASSWORD=password"
