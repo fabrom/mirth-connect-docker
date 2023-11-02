@@ -37,7 +37,7 @@ Prepare local datas directories :
 
 ## Connect to PHPMyAdmin
 
-- url: [http://localhost:8181]()
+- url: [http://localhost:8181](http://localhost:8181)
 - user: *root*
 - password: *password*
 
@@ -59,7 +59,7 @@ Double-click on *./webstart.jnlp* to start the Mirth-Connect client
 
 or
 
-browse to [http://localhost:8080]() to access web client.
+browse to [http://localhost:8080](http://localhost:8080) to access web client.
 
 ## Using host filesystem in MirthConnect
 
